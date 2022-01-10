@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/querries.css" rel="stylesheet" />
+    <script defer src="js.js"></script>
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        color: #000;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header flex flex-h">
+        <div class="left flex flex-h">
+          <a href="#" class="logo">
+            <img class="logo-img" src="./images/logo.svg" alt="Logo of Blogr company" />
+          </a>
+          <nav class="nav">
+            <ul class="nav-list flex flex-h">
+              <li class="nav-item">
+                <a href="#" class="flex"
+                  ><span>Product</span
+                  ><ion-icon
+                    name="chevron-down-outline"
+                    class="iicon"
+                  ></ion-icon
+                ></a>
+
+                <ul class="sub-list">
+                  <li class="sub-item"><a href="#" class="mb"> Overview</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Pricing</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Marketplace</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Features</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Integrations</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="flex "
+                  ><span>Company</span
+                  ><ion-icon
+                    name="chevron-down-outline"
+                    class="iicon"
+                  ></ion-icon
+                ></a>
+                <ul class="sub-list">
+                  <li class="sub-item"><a href="#" class="mb"> About</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Team</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Blog</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Careers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="mb flex "
+                  ><span>Connect</span
+                  ><ion-icon
+                    name="chevron-down-outline"
+                    class="iicon"
+                  ></ion-icon
+                ></a>
+                <ul class="sub-list">
+                  <li class="sub-item"><a href="#" class="mb"> Contact</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> Newsletter</a></li>
+                  <li class="sub-item"><a href="#" class="mb"> LinkedIn</a></li>
+                </ul>
+              </li>
+              <div class="btns flex flex-h">
+                <a href="#" class="log"> Login</a>
+                <a href="#" class="btn"> Sign Up</a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <button class="nv-btns">
+          <img class="nv-btn hamburger" src="images/icon-hamburger.svg" alt="hamburger icon image"/>
+          <img class="nv-btn close" src="images/icon-close.svg" alt="close icon image"/>
+        </button>
+      </header>
+      <div class="container">
+        <h1 class="primary-heading">A modern publishing platform</h1>
+        <p class="text">Grow your audience and build your online brand</p>
+        <div class="hero-links flex flex-h">
+          <a href="#" class="btn"> Start for Free</a>
+          <a href="#" class="btn"> Learn More</a>
+        </div>
+      </div>
+      <img class="bg-mbl" src="images/bg-pattern-intro-mobile.svg" alt="Three squares and one circle orange red pattern "> 
+      <img class="bg-hero" src="images/bg-pattern-intro-desktop.svg"  alt="Three squares and one circle orange red pattern "/>
+    </section>
+
+    <section class="future">
+      <h2 class="secondary-heading flex">Designed for the future</h2>
+      <div class="contain-futur grid grid-2-cols">
+        <div class="img-box flex">
+
+          <img class="illu-1" src="images/illustration-editor-mobile.svg" alt="illustration of editor mobile "/>
+        </div>
+        <div class="text-box flex flex-v">
+          <div class="bx flex flex-v">
+            <h3 class="tertiary-heading">Introducing an extensible editor</h3>
+            <p class="txtcription">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="bx flex flex-v">
+            <h3 class="tertiary-heading">Robust content management</h3>
+            <p class="txtcription">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+        <div class="img-box flex">
+          <img class="illu" src="/images/illustration-editor-desktop.svg" alt="illustration of editor mobile " />
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="small-section">
+      <div class="small">
+        <div class="content flex flex-h">
+          <div class="bx-imgs">
+            <img class="phn-img" src="images/illustration-phones.svg" alt="illustration of Blogr application on mobile"/>
+          </div>
+          <div class="bx-txt flex flex-v">
+            <h3 class="smll-heading">State of the Art Infrastructure</h3>
+            <p class="smllcription">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="futur-scnd">
+      <div class="contain grid grid-2-cols">
+        <div class="img-bx">
+          <img class="ilu" src="images/illustration-laptop-desktop.svg" alt="illustration of Blogr application on Pc"/>
+          <img class="ilu-1" src="images/illustration-laptop-mobile.svg" alt="illustration of Blogr application on Pc">
+        </div>
+        <div class="text-box grd flex flex-v">
+          <div class="bx flex flex-v">
+            <h3 class="tertiary-heading">Free, open, simple</h3>
+            <p class="txtcription">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="bx flex flex-v">
+            <h3 class="tertiary-heading">Powerful tooling</h3>
+            <p class="txtcription">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer grid">
+        <a href="#" class="logo">
+          <img class="logo-img" src="./images/logo.svg" alt="Blogr logo" />
+        </a>
+        <div class="links grid grid-3-cols">
+          <div class="row">
+            <p class="title">Product</p>
+            <ul class="footer-lnks flex flex-v">
+              <li class="footer-itm"><a href="#"> Overview</a></li>
+              <li class="footer-itm"><a href="#"> Pricing</a></li>
+              <li class="footer-itm"><a href="#"> Marketplace</a></li>
+              <li class="footer-itm"><a href="#"> Features</a></li>
+              <li class="footer-itm"><a href="#"> Integrations</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <p class="title">  Company</p>
+            <ul class="footer-lnks flex flex-v">
+              <li class="footer-itm"><a href="#">   About</a></li>
+              <li class="footer-itm"><a href="#">   Team</a></li>
+              <li class="footer-itm"><a href="#">  Blog</a></li>
+              <li class="footer-itm"><a href="#">   Careers</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <p class="title">Connect</p>
+            <ul class="footer-lnks flex flex-v">
+              <li class="footer-itm"><a href="#"> Contact</a></li>
+              <li class="footer-itm"><a href="#"> Newsletter</a></li>
+              <li class="footer-itm"><a href="#">   LinkedIn </a></li>
+              
+          </div>
+        </div>
+
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ilyass El Ouarti</a>.
+      </div>
+
+    </footer>
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
