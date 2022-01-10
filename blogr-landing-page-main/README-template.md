@@ -17,7 +17,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Blogr Live site](https://zen-goldstine-f24873.netlify.app/)
 
 ## My process
 
@@ -46,5 +46,5 @@ The switch between CSS Grid and Flexbox is a thing that I really want to perfect
 
 ## Author
 
-- Website - [](https://www.your-site.com)
+- Website - [Website live](https://zen-goldstine-f24873.netlify.app/)
 - Frontend Mentor - [@Ilyass-El-Ouarti](https://www.frontendmentor.io/profile/yourusername)
