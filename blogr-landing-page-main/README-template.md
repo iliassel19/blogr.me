@@ -10,7 +10,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![plot](blogr-landing-page-main/screenshots/screencapture-127-0-0-1-5500-index-html-2022-01-10-20_12_23.png)
 
 ### Links
 
@@ -45,4 +45,4 @@ The switch between CSS Grid and Flexbox is a thing that I really want to perfect
 ## Author
 
 - Website - [](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ilyass-El-Ouarti](https://www.frontendmentor.io/profile/yourusername)
