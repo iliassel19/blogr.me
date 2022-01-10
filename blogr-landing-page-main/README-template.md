@@ -10,7 +10,9 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![plot](blogr-landing-page-main/screenshots/screencapture-127-0-0-1-5500-index-html-2022-01-10-20_12_23.png)
+![Screenshot](https://github.com/iliassel19/blogr.me/blob/3a0a6bf0e5f4fe0fa4055f1ef4316e5b4fd733ad/blogr-landing-page-main/screenshots/screencapture-127-0-0-1-5500-index-html-2022-01-10-20_12_23.png)
+![Screenshot](https://github.com/iliassel19/blogr.me/blob/3a0a6bf0e5f4fe0fa4055f1ef4316e5b4fd733ad/blogr-landing-page-main/screenshots/screencapture-127-0-0-1-5500-index-html-2022-01-10-20_14_11.png)
+
 
 ### Links
 
